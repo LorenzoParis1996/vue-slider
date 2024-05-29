@@ -16,6 +16,9 @@
 <body>
     <div id="app">
         <div class="container">
+            <div>
+                <button @click="prevSlide"><i class="fa-solid fa-circle-arrow-left"></i></button>
+            </div>
             <div class="slider-wrapper" tabindex="0">
                 <div class="item" v-for="(slide, index) in slides" v-show="activeIndex === index">
                     <img :src="slide.image" :alt="slide.image" />
@@ -29,7 +32,9 @@
                     </div>
                 </div>
             </div>
-
+            <div>
+                <button @click="nextSlide"><i class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
         </div>
 
 
