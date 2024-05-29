@@ -1,6 +1,10 @@
 Descrizione:
 Partendo dal markup della versione svolta in js plain, creare uno slider usando Vue.
 
+- creo variabile Vue che mi ritorna l'array con indice grazie ad un ciclo (v-for),
+e visualizzo gli oggetti in pagina
+- creo delle funzioni con dentro delle condizioni in modo da iterare dentro l'array
+
 Bonus:
 
 1 - Aggiungere le thumbnails che si illuminano quando la relativa immagine e' attiva
